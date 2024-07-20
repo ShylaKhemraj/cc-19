@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .tour {
+    width: 20%;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 10px rgba(62, 75, 127, 0.1);
+    border-radius: 10px;
+  }
