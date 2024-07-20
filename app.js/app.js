@@ -2,9 +2,7 @@
 import React from 'react';
 import './App.css';
 import Gallery from './Gallery';
-
 const TourContext = React.createContext(null);
-
 function App() {
   const [tours, setTours] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
